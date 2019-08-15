@@ -1,0 +1,45 @@
+---
+title: "Welcome to The Web Scraping Website!"
+output: html_document
+---
+
+</br></br>
+
+## Web Scraping Is Fun But Unstable!
+
+-----
+
+```{r,echo=FALSE,warning=FALSE}
+source("helper2.R")
+two_column("Why is web scraping fun?","There is a ton of information on the Internet! Web scraping allows you to work with that information!","./img/index/chromebook.png")
+```
+
+
+-----
+
+```{r,echo=FALSE,warning=FALSE}
+source("helper2.R")
+two_column("Why is it unstable?","Websites change frequently! Information is added and removed and sites are often completely redesigned!","./img/why_data_science/career2017.png",iside="right")
+```
+
+
+------
+
+</br>
+
+```{r,echo=FALSE,warning=FALSE}
+source("helper2.R")
+two_column("Web Scraping Relies On Website Structure","To tell the computer what parts of the website to scrape, we often rely on HTML tags to specify which part of the website to scrape. When websites change, those tags often change, resulting in unexpected results when carrying out web scraping.", "./img/index/remotework.png", iside="right")
+```
+
+-----
+
+```{r,echo=FALSE,warning=FALSE}
+source("helper2.R")
+two_column("Save your Results", "After you scrape the information from the web, save that information somewhere. That way you only have to scrape once, and if the website changes, you already have the information you needed!","./img/why_data_science/dataanalysis.png" ,iside="left")
+```
+
+<br> 
+
+------
+

@@ -1,0 +1,22 @@
+---
+title: "Web Scraping"
+output: html_document
+---
+
+Web Scraping is an incredibly helpful tool when gathering and analysing data from the Internet. However, one thing to keep in mind is the fact that websites are *not* stable. Information gets added to and removed from them, they can be completely re-designed, and sometimes they completely disappear! For this reason it's important to record when you web scraped your information and store the data in a stable format (ie CSV, JSON, or XML) after you do your web scraping. This way you don't risk losing the information if the website changes *and* you're only doing the web scraping once. You want to minimize the number of times you scrape information. 
+
+Also, we've made this website due to stability issues. This website has been generated for the lesson you're currently working on! By using this website, we know that the content is stable and won't change...unless we decide to change it.
+
+------
+
+## R Packages : Data
+
+Package  | Purpose | URL
+------------------------|--------------------------------------------------|-----------
+**rvest** | Web Scraping | [https://rvest.tidyverse.org/]
+**httr** | Working with APIs | [https://httr.r-lib.org/]
+**dbplyr** | Working with databases (SQL) | [https://dbplyr.tidyverse.org/]
+**jsonlite** | Parsing JSON | [https://github.com/jeroen/jsonlite]
+**googlesheets** | Working with Google Sheets | [https://github.com/jennybc/googlesheets]
+
+

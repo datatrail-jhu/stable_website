@@ -1,0 +1,20 @@
+name: CBDS
+output_dir: '.'
+navbar:
+  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"img/index/remotework.png\" />"
+  left:
+  - text: Home
+    href: index.html
+  - text: Web Scraping
+    href: webscrape.html
+  - text: FAQs
+    href: faq.html 
+
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
+    css: styles.css
+
